@@ -1,0 +1,35 @@
+@use "./variables" as *;
+
+.annotation {
+  display: flex;
+  gap: 10px;
+  transition: opacity 0.2s;
+}
+
+.annotation_text {
+  color: $light;
+  border: 1px solid $light;
+  background-color: $opacity-dark-text;
+  text-align: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+
+  &:hover {
+    color: $annotation;
+    border: 1px solid $annotation;
+  }
+}
+
+.annotation_info {
+  background-color: $opacity-dark-info;
+  width: 120px;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &:hover {
+    color: $annotation;
+  }
+}
