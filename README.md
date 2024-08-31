@@ -1,8 +1,7 @@
-# React + Vite
+# Three.js Sketchfab Model with Annotations and Zoom Animation Intro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Showcase
+![](https://github.com/littlenines/threejs-sketchfab-model/blob/e7eedc168b4c9a7962fdf3938278be6af8f51044/Animation-model.gif)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
